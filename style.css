@@ -75,3 +75,54 @@ body{
 .hide{
     display: none;
 }
+@media (max-width: 600px) {
+    .game {
+        width: 90vmin;
+        height: 90vmin;
+        gap: 1vmin;
+    }
+
+    .box {
+        width: 28vmin;
+        height: 28vmin;
+        font-size: 10vmin;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 8vmin;
+        margin: 2vmin 0;
+    }
+
+    #reset-btn {
+        padding: 1rem;
+        font-size: 1rem;
+        width: 50%;
+        max-width: 200px;
+        margin: 2vmin auto;
+        display: block;
+    }
+
+    #msg {
+        font-size: 6vmin;
+    }
+
+    .newGame {
+        padding: 0.75rem;
+        font-size: 1rem;
+        width: 50%;
+        max-width: 200px;
+        margin-top: 2vmin;
+    }
+
+    .container {
+        height: auto;
+        flex-direction: column;
+        padding: 2vmin;
+    }
+
+    .msgcontainer {
+        padding-top: 30vmin;
+        height: 90vmin;
+    }
+}
